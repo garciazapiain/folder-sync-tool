@@ -24,7 +24,7 @@ This Python script synchronizes a replica folder with a source folder, ensuring 
 
 Make sure you have Python 3 installed.
 
-### Installation:
+## Installation:
 
 Clone the repository or download the script:
 
@@ -35,7 +35,7 @@ git clone <repository-url>
 cd <repository-folder>
 ```
 
-### Usage:
+## Usage:
 
 Run the script using the following command:
 
@@ -43,20 +43,20 @@ Run the script using the following command:
 python3 sync.py <source_folder> <replica_folder> <sync_interval_seconds> <log_file>
 ```
 
-### Explanation of parameters:
+## Explanation of parameters:
 
-    - <source_folder>: The absolute or relative path to the folder that contains the original files.
-    - Example: ~/Desktop/source-folder or /home/user/source-folder
+    - **<source_folder>**: The absolute or relative path to the folder that contains the original files.
+    Example: ~/Desktop/source-folder or /home/user/source-folder
 
-    - <replica_folder>: The absolute or relative path to the folder where the synchronization wil replicate files from the source.
-    - Example: ~/Desktop/replica-folder or /home/user/replica-folder
+    - **<replica_folder>**: The absolute or relative path to the folder where the synchronization wil replicate files from the source.
+    Example: ~/Desktop/replica-folder or /home/user/replica-folder
 
-    - <sync_interval_seconds>: The time interval (in seconds) at which the synchronization process repeats.
-    - Example: 10 (syncs every 10 seconds)
+    - **<sync_interval_seconds>**: The time interval (in seconds) at which the synchronization process repeats.
+    Example: 10 (syncs every 10 seconds)
 
-    - <log_file>: The file path and file name where logs will be stored, detailing synchronization activities.
-    -Example: sync_log.txt (stores logs in the current directory)
+    - **<log_file>**: The file path and file name where logs will be stored, detailing synchronization activities.
+    Example: sync_log.txt (stores logs in the current directory)
 
-### To stop script:
+## To stop script:
 
     - Press Ctrl + C
