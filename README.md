@@ -18,7 +18,8 @@ This Python script synchronizes a replica folder with a source folder, ensuring 
          - if it doesn't, it prompts user to create it with yes/no option
          - In case user says no, script stops automatically
 
-    - Creates replica folder automatically in case it doesn't exist or was deleted in the middle of script
+    - Creates replica folder automatically when non-existant initially or deleted
+
 
 ## Requirements:
 
