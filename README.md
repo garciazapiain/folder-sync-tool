@@ -30,7 +30,7 @@ Make sure you have Python 3 installed.
 Clone the repository or download the script:
 
 ```bash 
-git clone <repository-url>
+git clone https://github.com/garciazapiain/folder-sync-tool.git>
 ```
 ```bash
 cd <repository-folder>
