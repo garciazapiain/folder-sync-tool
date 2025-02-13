@@ -58,6 +58,7 @@ python3 sync.py <source_folder> <replica_folder> <sync_interval_seconds> <log_fi
 - **`<log_file>`**: The **file path** where logs will be stored, detailing synchronization activities.  
   - Example: `sync_log.txt` (stores logs in the current directory)
 
-## To stop script:
+## Additional details:
 
-    - Press Ctrl + C
+  - Stopping script: Press Ctrl + C
+  - **`.gitignore`** file: currently ignores the default source-folder/ and replica-folder/. If you change the folder names when running the script, these new names will not be ignored unless you update the .gitignore file.

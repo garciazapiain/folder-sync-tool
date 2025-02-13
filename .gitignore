@@ -1,0 +1,6 @@
+# Ignore log files
+*.txt 
+
+# Ignore dynamically created folders
+source-folder/
+replica-folder/
