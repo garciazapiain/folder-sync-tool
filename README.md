@@ -61,4 +61,4 @@ python3 sync.py <source_folder> <replica_folder> <sync_interval_seconds> <log_fi
 ## Additional details:
 
   - Stopping script: Press Ctrl + C
-  - **`.gitignore`** file: currently ignores the default source-folder/ and replica-folder/. If you change the folder names when running the script, these new names will not be ignored unless you update the .gitignore file.
+  - **`.gitignore`** file: currently ignores .txt log, system files, the default source-folder/ and replica-folder/. If you change the folder names when running the script, these new names will not be ignored unless you update the .gitignore file.
