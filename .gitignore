@@ -4,3 +4,7 @@
 # Ignore dynamically created folders
 source-folder/
 replica-folder/
+
+# Ignore system files 
+.DS_Store 
+Thumbs.db 
